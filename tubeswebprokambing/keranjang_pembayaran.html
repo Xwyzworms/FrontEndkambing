@@ -4,7 +4,7 @@
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/keranjang_informasi.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="assets/keranjang_pembayaran.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="assets/footer.css" media="screen" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -39,57 +39,51 @@
                     <span class="step_by_step keranjang">1. Keranjang</span>
                 </li>
                 <li class="Step step_by_step">
-                    <span class="step_by_step keranjang-active">2. Order information</span>
+                    <span class="step_by_step keranjang">2. Order information</span>
                 </li>
                 <li class="Step step_by_step">
-                    <span class="step_by_step keranjang">3. Menyelesaikan pembayaran</span>
+                    <span class="step_by_step keranjang-active">3. Menyelesaikan pembayaran</span>
                 </li>
             </ul>
         </div>
     </header>
    
     <main class="information">
-     <div class="bodyinformation">
-       <table class="biodata" align="left">
-           <tr>
-            <th bgcolor="#ff6700" class="tableheader"><center>Alamat pengiriman Barang</center></th>
-           </tr>
-           <tr>
-                <td>
-                    Nama penerima
-                    <input type="text" class="sizebox">
-                    Nomor telepon
-                    <input type="text" class="sizebox">
-                    alamat
-                    <input type="text" class="sizealamat">
-                    kota
-                    <select class="sizebox">
-                        <option value="bandung">bandung (Rp.15.000)</option>
-                        <option value="jakarta">jakarta (Rp.20.000)</option>
-                    </select>
-                </td>
-           </tr>
-       </table>
-       <table class="detail" align="right">
-        <tr>
-            <th bgcolor="#ff6700" class="tableheader" colspan="3"><center>Detail orderan</center></th>
-        </tr>
-        <tr>
-            <td>nama barang</td>
-            <td>Qty</td>
-            <td>harga</td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <th colspan="2"><center>Sub total: </center></th>
-            <th>Rp.-</th>
-        </tr>
-       </table>
-     </div>
+        <div class="bodyinformation_pembayaran">
+            <h3>Detail pesanan</h3>
+            <pre>
+                Nama penerima       : 
+                Alamat              :
+                Nomor pengirim      :
+                tanggal pemesanan   :
+            </pre>
+            <table class="detail_pembayaran" align="center">
+                <tr>
+                    <th widht="60px"> No </th>
+                    <th widht="300px"> Nama barang </th>
+                    <th widht="60px"> qty </th>
+                    <th widht="300px"> Harga satuan </th>
+                    <th widht="400px"> Total </th>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr class="subtotal">
+                    <td colspan="3"> </td>
+                    <td> sub-total </td>
+                    <td> Rp.- </td>
+                </tr>
+            </table><br>
+            <pre>
+                silahkan melakukan pembayaran melalui bank <b>BCA</b>
+                Nomor rekening : xxx-xxx-xxx (XIAOMI INDONESIA)
+                silahkan lakukan konfirmasi pembayaran <a href="konfirmasi.html"><u><b>disini</b></u></a>
+            </pre>
+        </div>
     </main>
 
     <footer class="row">

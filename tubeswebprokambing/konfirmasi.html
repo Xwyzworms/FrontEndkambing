@@ -4,7 +4,7 @@
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/keranjang_informasi.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="assets/konfirmasi.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="assets/footer.css" media="screen" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -39,57 +39,27 @@
                     <span class="step_by_step keranjang">1. Keranjang</span>
                 </li>
                 <li class="Step step_by_step">
-                    <span class="step_by_step keranjang-active">2. Order information</span>
+                    <span class="step_by_step keranjang">2. Order information</span>
                 </li>
                 <li class="Step step_by_step">
-                    <span class="step_by_step keranjang">3. Menyelesaikan pembayaran</span>
+                    <span class="step_by_step keranjang-active">3. Menyelesaikan pembayaran</span>
                 </li>
             </ul>
         </div>
     </header>
    
     <main class="information">
-     <div class="bodyinformation">
-       <table class="biodata" align="left">
-           <tr>
-            <th bgcolor="#ff6700" class="tableheader"><center>Alamat pengiriman Barang</center></th>
-           </tr>
-           <tr>
-                <td>
-                    Nama penerima
-                    <input type="text" class="sizebox">
-                    Nomor telepon
-                    <input type="text" class="sizebox">
-                    alamat
-                    <input type="text" class="sizealamat">
-                    kota
-                    <select class="sizebox">
-                        <option value="bandung">bandung (Rp.15.000)</option>
-                        <option value="jakarta">jakarta (Rp.20.000)</option>
-                    </select>
-                </td>
-           </tr>
-       </table>
-       <table class="detail" align="right">
-        <tr>
-            <th bgcolor="#ff6700" class="tableheader" colspan="3"><center>Detail orderan</center></th>
-        </tr>
-        <tr>
-            <td>nama barang</td>
-            <td>Qty</td>
-            <td>harga</td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <th colspan="2"><center>Sub total: </center></th>
-            <th>Rp.-</th>
-        </tr>
-       </table>
-     </div>
+        <div class="bodyinformation_pembayaran">
+            <h3>konfirmasi pembayaran</h3> <br>
+            <pre>
+                Nama pengirim   : <input type="text" name="nama"> <br>
+                No rekening     : <input type="int" name="No Kartu"> <br>
+                pin             : <input type="password" name="No Kartu"> <br>
+            </pre>
+        </div>
+        <div class="submit_yuk">
+            <button type="Submit" name="Submit" class="submit_akun">Submit</button>
+        </div>
     </main>
 
     <footer class="row">
