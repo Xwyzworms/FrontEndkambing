@@ -48,8 +48,8 @@
         </div>
     </header>
    
-    <main class="information">
-     <div class="bodyinformation">
+    <main id="root">
+     <div class="bodyinformation" id="wrapper">
        <table class="biodata" align="left">
            <tr>
             <th bgcolor="#ff6700" class="tableheader"><center>Alamat pengiriman Barang</center></th>
@@ -76,19 +76,22 @@
         </tr>
         <tr>
             <td>nama barang</td>
-            <td>Qty</td>
+            <td width="40px">Qty</td>
             <td>harga</td>
         </tr>
         <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Redmi Note 9k</td>
+            <td>1 </td>
+            <td>2.299.000</td>
         </tr>
-        <tr>
+        <tr class="pembayarantotal">
             <th colspan="2"><center>Sub total: </center></th>
-            <th>Rp.-</th>
+            <th>Rp.2.299.000</th>
         </tr>
        </table>
+     </div>
+     <div class="button-confirm" id="wrapperbutton">
+        <p align="center"><a href="" class="confirmasi">Konfirmasi pembayaran</a></p>
      </div>
     </main>
 
