@@ -10,7 +10,7 @@
 .buttonMI {
 	height:45px;
 	width:350px;
-	background-color: #ff6700;
+	background-color:#ff4500;
 }
 
 .buttonNoTelp{
@@ -29,20 +29,16 @@
 
 }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.imgStaticSize{
+	height:45px;
+	width:100px;
+	text-align:center;
 }
-
-body{
-	background-color:  rgb(224, 224, 224);
-}
-
-.container{
-    background-color: white;
-}
-
-a {
-	color: white;
-}
+/*
+.CarouselImages{
+	height:100%;
+	width:100%;
+	padding-bottom:80px;
+	padding-top:120px;
+	transform:scale(1.5);	
+}*/
