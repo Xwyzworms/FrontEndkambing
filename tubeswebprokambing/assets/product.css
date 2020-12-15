@@ -6,12 +6,7 @@
 
 
 }
-.ImagesPerlindungan{
-  margin-top:35px;
 
-
-
-}
 .PaddingKuy{
 
   padding-left: 25px;
@@ -29,12 +24,7 @@
 }
 
 .ImagesLeft{
-  width:500px;
-  height:560px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
+
 
 }
 .BackgroundColRight{
@@ -42,7 +32,7 @@
   width: 606px;
   min-height: 500px;
   box-sizing: border-box;
-  padding: 48px 48px 40px;
+
   margin-bottom: 60px;
   background: #fafafa;
 
@@ -50,19 +40,25 @@
 .Rectangle{
   padding: 10px 30px;
   margin-left: 10px;
-  width: 180px;
+  width: 560px;
   min-height: 58px;
-  height: 35px;
+  height: 76px;
   font-size: 16px; 
   line-height: 20px;
   color: #757575;
   text-align: center;
   border: 1px solid #eee;
   background-color: #fff;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   transition: opacity,border .2s linear;
+}
+.Sticky{
+  margin:auto;
+  position: fixed;
+  max-width:550px;
+  height:550px;
+
+
+
 }
 .Circle{
   height:35px;
@@ -111,7 +107,108 @@ font-size:11px;
   height: 40px;
   background-color: orange;
 
+}
 
 
+.QuantityButton{
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+
+    color: #424242;
+
+}
+
+.minus{
+  width:18px;
+  height:5px;
+  margin:auto;
+  background-color: black;
+  opacity: 40%;
+  border-radius: 5px;
+}
+.plus{
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  margin:auto;
+
+}
+.plus::before{
+  display:inline-block;
+  content:"+";
+  text-align: center;
+}
+.InputQuantity{
+  width: 64px;
+  height: 36px;
+  text-align: center;
+  font-size:15px;
+  padding-bottom:0;
+}
+.JumlahRapih{
+  padding: 5px;
+
+}
+.row .col-lg-1{
+padding:0px;
+margin:auto;
+  
+}
+.insuranceSection{
+  width:100%;
+  height:auto;
+  background: #fafafa;
+
+
+}
+
+.InsuranceSectionItem{
+  width: 100%;
+  min-height: 120px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-top: 0 solid #e0e0e0;
+  box-sizing: border-box;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  
+}
+.insuranceSection .InsuranceSectionItem .container-fluid .row p
+{
+  font-size:10px;
+  color:#ff6700;
+}
+.Rectangle .row .FontSizeTotal{
+  font-size:20px;
+  color:#ff6700;
+
+}
+.ButtonBeliSekarang{
+  height:50px;
+  width:400px;
+  font-size:20px;
+  background-color:#ff6700;
+  color:#fff;
+
+}
+.Rectangle .row .col-md-2{
+
+  margin-left:30px;
+
+}
+.CircleChat{
+
+  width: 48px;
+  height: 48px;
+  border-radius:50%;
+  border-color: #ff6700;
+  background: url(//i01.appmifile.com/webfile/globalimg/custom-service/cus-all.png) no-repeat;
 
 }
