@@ -5,47 +5,118 @@
   	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  	<link rel="stylesheet" type="text/css" href="assets/yow.css" media="screen" />
+  	<link rel="stylesheet" type="text/css" href="assets/home.css" media="screen" />
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
- 	<nav class="navbar navbar-inverse">
+	<div class="Uppernav">
 	  <div class="container-fluid">
-	    <ul class="nav navbar-nav">
-	       <li class="nav-item"> <a href="#">MI INDONESIA</a></li>
-	       <li class="nav-item"> <a href="#">|</a></li>
-	       <li class="nav-item"> <a href="#">IKUTI KITA DI FACEBOOK</a></li>
-	       <li class="nav-item"> <a href="#">|</a></li>
-	       <li class="nav-item"> <a href="#">MI COMMUNITTY</a></li>
+	    <ul class="external-entries" >
+	       <li class="entryleft"> <a href="#">MI INDONESIA</a></li>
+	       <li class="entryleft"> <a href="#">|</a></li>
+	       <li class="entryleft"> <a href="#">IKUTI KITA DI FACEBOOK</a></li>
+	       <li class="entryleft"> <a href="#">|</a></li>
+	       <li class="entryleft"> <a href="#">MI COMMUNITTY</a></li>
 	    </ul>
-	     <ul class="nav navbar-nav  navbar-right">
-		<li class="nav-item"> <a href="#">Masuk </a></li>
-		<li class="nav-item"> <a href="#">|</a></li>
-		<li class="nav-item"> <a href="#">Daftar</a></li>
-		<li class="nav-item"> <a href="#">|</a></li>
-		<li class="nav-item"> <a href="#"><span class="	glyphicon glyphicon-shopping-cart"></span>  Keranjang (0)</a></li> 
+	     <ul class="external-entries-right">
+			
+			<li class="entryright"> <a href="#"><span class="	glyphicon glyphicon-shopping-cart"></span>  Keranjang (0)</a></li> 
+			<li class="entryright"> <a href="#">|</a></li>
+			<li class="entryright"> <a href="#">Daftar </a></li>
+			<li class="entryright"> <a href="#">|</a></li>
+			<li class="entryright"> <a href="#">Masuk</a></li>
+		
 	    </ul>
 	    </div>
 	  </div>
-	</nav>
-	<nav class="navbar navbar-default">
-	<div class="container-fluid">
-	   <div class="navbar-header">
-		<img src="assets/mipicts.png" alt="kambing">
-	   </div>
-	   <ul class="nav navbar-nav navbar-right">
-		<li class="nav-item"> <a href="#">All Products </a></li>
-		<li class="nav-item"> <a href="#">Powerbank</a></li>
-		<li class="nav-item"> <a href="#">TV</a></li>
-		<li class="nav-item"> <a href="#">POCOPHONE</a></li>
-		<li class="nav-item"> <a href="#">MI PHONE</a></li>
-		<li class="nav-item"> <a href="#">Redmi Phones</a></li>
-	   </ul> 
 	</div>
-	</nav>
-	<section>
+	
+	<section class="main">
+		<div>
+			<div class="navbar navbar-default">
+				<!-- Header -->
+				<div class="navbar-header ">
+					<a class="navbar-brand" href="#">
+						Bootstrap 3 Skeleton
+					</a>
+				</div>
+				<!-- Navbar Links -->
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" 
+							data-toggle="dropdown">
+								Redmi Phones
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li class="divider"></li>
+								<div class='row'>
+									<div class="col-md-3">
+										<img src="assets/Redmi9c.png" alt="Maku">
+										<h5 style="text-align: center;">Redmi 9c</h5>
+									</div>
+									<div class="col-md-3">
+										<img src="assets/Redmi9c.png" alt="Maku">
+										<h5 style="text-align: center;">Redmi 9c</h5>
+									</div>
+									<div class="col-md-3">
+										<img src="assets/Redmi9c.png" alt="Maku">
+										<h5 style="text-align: center;">Redmi 9c</h5>
+									</div>
+									<div class="col-md-3">
+										<img src="assets/Redmi9c.png" alt="Maku">
+										<h5 style="text-align: center;">Redmi 9c</h5>
+									</div>
+									<div class="col-md-3">
+										<img src="assets/Redmi9c.png" alt="Maku">
+										<h5 style="text-align: center;">Redmi 9c</h5>
+									</div>
+									<div class="col-md-3">
+										<img src="assets/Redmi9c.png" alt="Maku">
+										<h5 style="text-align: center;">Redmi 9c</h5>
+									</div>
+								</div>
+							</ul>
+						</li>   
+						<li class="dropdown full-width">
+							<a href="#" class="dropdown-toggle" 
+							data-toggle="dropdown">
+								Full Width <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Really Really Really Really Really Really Really Really Really Really Really Really Really Really Really Really Really Long
+									</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li class="divider"></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>          
+						<li class="dropdown fill-width">
+							<a href="#" class="dropdown-toggle" 
+							data-toggle="dropdown">
+								Fill Width <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Really Really Really Really Really Really Really Really Really Really Really Really Really Really Really Really Really Long
+									</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li class="divider"></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>   
+					</ul>
+				</div>
+			</div>
+		</div>
+		
 		<div id ="carouselIndicators" class="carousel slide" data-ride="carousel" >
 			<ol class="carousel-indicators">	
 			  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -54,23 +125,26 @@
 			  <li data-target="#carouselIndicators" data-slide-to="3"></li>
 			  <li data-target="#carouselIndicators" data-slide-to="4"></li>
 			</ol>
+ 
 			<div class="carousel-inner CarouselImages"> 
+				
 				<div class="item active">
-					<img src ="assets/Carousel1.jpg" class="d-block w-100">
+					<img src ="assets/Carousel1.jpg" class="d-block w-10">
 				</div>
 				<div class="item">
-					<img src ="assets/Carousel2.jpg" class="d-block w-100">
+					<img src ="assets/Carousel2.jpg" class="d-block w-10">
 				</div>
 				<div class="item">
-					<img src="assets/Carousel3.jpg" class="d-block w-100">
+					<img src="assets/Carousel3.jpg" class="d-block w-10">
 				</div>
 				<div class="item">
-					<img src="assets/Carousel4.jpg" class="d-block w-100">
+					<img src="assets/Carousel4.jpg" class="d-block w-10">
 				</div>
 				<div class="item">
-					<img src="assets/Carousel5.jpg" class="d-block w-100">
+					<img src="assets/Carousel5.jpg" class="d-block w-10">
 				</div>
 			</div>
+			
 	  	</div>
 		<a class="left carousel-control" href="#carouselIndicators" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left"></span>
@@ -80,6 +154,7 @@
 			<span class="glyphicon glyphicon-chevron-right"></span>
 			<span class="sr-only">Next </span>
 		</a>
+		</nav>
 	</section>
 </body>
 

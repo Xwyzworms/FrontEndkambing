@@ -1,0 +1,146 @@
+body {
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #757575;
+    background-color: #f5f5f5;
+}
+
+.h2style {
+	text-align:center;
+}
+
+.pstyle {
+	text-align:center;
+
+}
+
+.buttonMI {
+	height:45px;
+	width:350px;
+	background-color: #ff6700;
+}
+
+.buttonNoTelp{
+	height:45px;
+	width:350px;
+	background-color:#414a4c;
+}
+
+.InLinetext1{
+	height:45px;
+	width:350px;
+}
+
+.AhrefBlack{
+ 	color:black;
+
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	background-color:  rgb(224, 224, 224);
+}
+
+.container{
+    background-color: white;
+}
+
+a {
+	color: white;
+}
+
+
+.imgStaticSize{
+	height:45px;
+	width:100px;
+	text-align:center;
+}
+/*
+.CarouselImages{
+	height:100%;
+	width:100%;
+	padding-bottom:80px;
+	padding-top:120px;
+	transform:scale(1.5);	
+}*/
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.Uppernav .container-fluid .external-entries{
+	float: left;
+}
+.Uppernav .container-fluid .external-entries-right{
+
+	float: right;
+}
+.Uppernav .container-fluid{
+	background-color: black;
+	height:45px;
+	
+
+}
+.container-fluid .external-entries-right .entryright{
+
+	float: right;
+	position: relative;
+    margin: 0 10px 0 11px;
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+.container-fluid .external-entries .entryleft{
+
+	float: left;
+	position: relative;
+    margin: 0 10px 0 11px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.navbar .container-fluid{
+
+	background-color: white;
+}
+
+
+
+.navbar .container-fluid .nav .nav-item .dropdown-item{
+	height:50px;
+	width: 1000px; text-align: center; left:0; right:0;
+
+
+}
+.nav  li.dropdown.open {
+	position: static;
+  }
+  
+  .nav > li.dropdown.open .dropdown-menu {
+	display: block;
+	border-radius: 0px;
+	height:250px;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	right: 0;
+  }
+  main{
+	  width: 100%;
+  }
+  .collapse .nav .dropdown-menu .row .col-md-3{
+	margin-right:-170px;
+	margin-left:24px;
+
+
+  }
